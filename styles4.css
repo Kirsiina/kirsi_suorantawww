@@ -11,6 +11,14 @@ a:hover {
   transition: .4s;
 }
 
+a:link, a:visited {
+  color: #8C4843;
+}
+
+a:hover, a:active {
+  color: #746D75;
+}
+
 .container {
   display: flex;
   flex-direction: column;
