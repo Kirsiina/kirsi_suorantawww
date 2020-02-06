@@ -1,0 +1,67 @@
+body {
+  background-color: #EDE6F2;
+  background: url('background.jpg') center center no-repeat fixed;
+  margin-top: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+a:link, a:visited {
+  color: #C65B7C;
+}
+
+a:hover, a:active {
+  color: #5B3758;
+}
+
+header {
+  margin: 20px auto 20px auto;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 60pt;
+  font-style: italic;
+  color: #fff;
+  text-shadow: 2px 2px 6px #000;
+}
+
+.custom {
+  display: flex;
+  flex-direction: column;
+}
+
+.maintext {
+  padding: 40px;
+  background-color: #f4f4f4;
+  flex: 3;
+}
+
+.custom-nav {
+  background-color: #E6E6EA;
+  padding: 20px;
+  flex: 1;
+}
+
+.custom-nav ul {
+  margin-bottom: 40px;
+}
+
+li .nav-item {
+  display: block;
+}
+
+.custom-nav a:hover {
+  background-color: #f4f4f4;
+  transition: .2s;
+}
+
+@media screen and (max-width: 700px) {
+  .custom, .custom-nav {
+    flex-direction: column;
+  }
+}
